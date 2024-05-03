@@ -1,35 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Security.Policy;
-using System.Xml.Linq;
-using Guna.UI2.WinForms;
 
 namespace login
 {
     public partial class Login : Form
     {
-        string cs = ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString;
-        SqlConnection conn = new SqlConnection();
-        
-
+        private SqlConnection conn;
         public Login()
         {
             InitializeComponent();
-            conn = new SqlConnection(cs);
+            conn = DatabaseHelper.GetConnection();
         }
 
         public void loagin()
         {
-            if (cmprole.SelectedItem.ToString() == "admin")
+            if (cmprole.Text.ToString()=="" && txtPassword.Text==""&&txtUsername.Text=="")
+            {
+                MessageBox.Show("empty space is not allowed");
+            }
+            else if (cmprole.SelectedItem.ToString() == "admin")
             {
 
                 conn.Open();
@@ -82,7 +74,7 @@ namespace login
 
         }
 
-
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {

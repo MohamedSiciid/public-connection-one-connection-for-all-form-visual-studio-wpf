@@ -107,6 +107,7 @@
     <Compile Include="AdminDashboardForm.Designer.cs">
       <DependentUpon>AdminDashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DatabaseHelper.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
