@@ -76,7 +76,7 @@
             this.tabPage1.Location = new System.Drawing.Point(8, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1523, 705);
+            this.tabPage1.Size = new System.Drawing.Size(1523, 658);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Register Login";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -229,6 +229,7 @@
             this.guna2GradientButton2.Size = new System.Drawing.Size(222, 72);
             this.guna2GradientButton2.TabIndex = 13;
             this.guna2GradientButton2.Text = "Save";
+            this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
             // 
             // btndelete
             // 

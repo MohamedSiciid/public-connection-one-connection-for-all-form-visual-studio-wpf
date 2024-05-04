@@ -126,7 +126,7 @@
             this.cmprole.Location = new System.Drawing.Point(473, 220);
             this.cmprole.Name = "cmprole";
             this.cmprole.ShadowDecoration.Parent = this.cmprole;
-            this.cmprole.Size = new System.Drawing.Size(317, 36);
+            this.cmprole.Size = new System.Drawing.Size(337, 36);
             this.cmprole.TabIndex = 2;
             // 
             // panel1
@@ -254,7 +254,7 @@
             // 
             this.btnshow.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnshow.Image = ((System.Drawing.Image)(resources.GetObject("btnshow.Image")));
-            this.btnshow.Location = new System.Drawing.Point(993, 485);
+            this.btnshow.Location = new System.Drawing.Point(996, 487);
             this.btnshow.Name = "btnshow";
             this.btnshow.ShadowDecoration.Parent = this.btnshow;
             this.btnshow.Size = new System.Drawing.Size(43, 51);
@@ -267,7 +267,7 @@
             // 
             this.btnhide.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnhide.Image = ((System.Drawing.Image)(resources.GetObject("btnhide.Image")));
-            this.btnhide.Location = new System.Drawing.Point(996, 485);
+            this.btnhide.Location = new System.Drawing.Point(999, 487);
             this.btnhide.Name = "btnhide";
             this.btnhide.ShadowDecoration.Parent = this.btnhide;
             this.btnhide.Size = new System.Drawing.Size(40, 51);

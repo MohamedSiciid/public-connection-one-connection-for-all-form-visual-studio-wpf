@@ -19,9 +19,10 @@ namespace login
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LoginPageControl loginPageControl = new LoginPageControl();
-            loginPageControl.Visible = true;
-            this.Controls.Add(loginPageControl);
+            LoginPage lg = new LoginPage();
+            lg.Show();
+            this.Close();   
+           
 
         }
     }

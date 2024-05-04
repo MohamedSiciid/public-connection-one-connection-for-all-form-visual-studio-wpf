@@ -16,24 +16,7 @@ namespace login
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (conn.State == ConnectionState.Closed)
-            {
-                conn.Open();
-                string insertQuery = "INSERT INTO Login (UserName, Password, UserRole) VALUES (@UserName, @Password, @UserRole)";
-                using (SqlCommand insertCommand = new SqlCommand(insertQuery, conn))
-                {
-                    insertCommand.Parameters.AddWithValue("@UserName", txtusername.Text);
-                    insertCommand.Parameters.AddWithValue("@Password", txtpassword.Text);
-                    insertCommand.Parameters.AddWithValue("@UserRole", cmprole.SelectedItem.ToString());
-                    insertCommand.ExecuteNonQuery();
-                    MessageBox.Show("data saved successfull");
-                    
-                }
-            }
-            else
-            {
-                MessageBox.Show("connection is not open");
-            }
+            
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
@@ -43,33 +26,13 @@ namespace login
 
         private void btndelete_Click(object sender, EventArgs e)
         {
-            try
-            {
-                
-                    if (conn.State == ConnectionState.Closed)
-                    {
-                        conn.Open();
-                        string deleteQuery = "DELETE FROM Login WHERE UserName = @UserName";
-                        using (SqlCommand deleteCommand = new SqlCommand(deleteQuery, conn))
-                        {
-                            deleteCommand.Parameters.AddWithValue("@UserName", txtuser.Text);
-                            int rowsAffected = deleteCommand.ExecuteNonQuery();
-                            if (rowsAffected > 0)
-                            {
-                                MessageBox.Show("Data was deleted successfully.");
-                            }
-                            else
-                            {
-                                MessageBox.Show("No records found for the specified user.");
-                            }
-                        }
-                    }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"An error occurred: {ex.Message}");
-            }
+           
 
+
+        }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
 
         }
     }
