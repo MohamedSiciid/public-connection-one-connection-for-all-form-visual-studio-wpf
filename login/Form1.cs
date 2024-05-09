@@ -8,7 +8,7 @@ namespace login
 {
     public partial class Login : Form
     {
-        private SqlConnection conn;
+        private readonly SqlConnection conn;
         public Login()
         {
             InitializeComponent();
@@ -33,7 +33,7 @@ namespace login
                 conn.Close();
                 if (dt.Rows.Count == 1)
                 {
-                    AdminDashboardForm fd = new AdminDashboardForm();
+                    AdminDashboardForm fd = new AdminDashboardForm(cmprole.Text.ToString());
                     fd.Show();
                     this.Hide();
                 }
@@ -55,9 +55,10 @@ namespace login
                 conn.Close();
                 if (dt.Rows.Count == 1)
                 {
-                    UserHomePageForm fd = new UserHomePageForm();
+                    AdminDashboardForm fd = new AdminDashboardForm(cmprole.Text.ToString());
                     fd.Show();
                     this.Hide();
+                   
                 }
                 else
                 {
@@ -159,7 +160,6 @@ namespace login
             if (MessageBox.Show("Exit Application?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 Application.Exit();
-
             }
         }
 

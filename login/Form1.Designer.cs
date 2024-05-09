@@ -254,7 +254,7 @@
             // 
             this.btnshow.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnshow.Image = ((System.Drawing.Image)(resources.GetObject("btnshow.Image")));
-            this.btnshow.Location = new System.Drawing.Point(996, 487);
+            this.btnshow.Location = new System.Drawing.Point(1059, 487);
             this.btnshow.Name = "btnshow";
             this.btnshow.ShadowDecoration.Parent = this.btnshow;
             this.btnshow.Size = new System.Drawing.Size(43, 51);

@@ -58,6 +58,9 @@
     <Reference Include="Bunifu.UI.WinForms.1.5.3">
       <HintPath>..\..\..\..\..\..\Bunifu-Crack-main\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\..\..\..\Bunifu-Crack-main\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
       <HintPath>..\..\..\..\..\..\Bunifu-Crack-main\Bunifu_UI_WinForms_5.0.3\ui.winforms.5.0.3\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
     </Reference>
