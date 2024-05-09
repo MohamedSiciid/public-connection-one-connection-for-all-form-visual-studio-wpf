@@ -27,12 +27,28 @@ namespace login
            
 
         }
+        private void AdjustLayout()
+        {
+            // Assuming btnstaff is the button you want to hide
+            // and controlBelowButton is the control directly below the button
+            Control controlBelowButton = this.btnpayment; // Replace with your actual control
+
+            // Calculate the new top position for the control below the button
+            int newTopPosition = controlBelowButton.Top - btnpayment.Height - btnpayment.Margin.Bottom - controlBelowButton.Margin.Top;
+
+            // Set the new top position to move the control up
+            controlBelowButton.Top = newTopPosition;
+
+            // Refresh the form to update the layout
+            this.Refresh();
+        }
 
         private void AdminDashboardForm_Load(object sender, EventArgs e)
         {
             if (Role == "user")
             {
-                btnstaff.Visible = false; // Hide the button
+                btnstaff.Hide(); // Hide the button and remove the space
+                AdjustLayout();
             }
         }
 

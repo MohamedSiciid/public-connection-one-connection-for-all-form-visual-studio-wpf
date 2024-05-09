@@ -34,9 +34,9 @@
             this.btnuser = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnpayment = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnstaff = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btndrug = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -82,9 +82,9 @@
             this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.guna2GradientButton3);
-            this.panel1.Controls.Add(this.guna2GradientButton6);
+            this.panel1.Controls.Add(this.btnpayment);
             this.panel1.Controls.Add(this.btnstaff);
-            this.panel1.Controls.Add(this.guna2GradientButton4);
+            this.panel1.Controls.Add(this.btndrug);
             this.panel1.Controls.Add(this.guna2GradientButton2);
             this.panel1.Controls.Add(this.guna2GradientButton1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -115,23 +115,23 @@
             this.guna2GradientButton3.TabIndex = 7;
             this.guna2GradientButton3.Text = "Doctor";
             // 
-            // guna2GradientButton6
+            // btnpayment
             // 
-            this.guna2GradientButton6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2GradientButton6.CheckedState.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.CustomImages.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.FillColor = System.Drawing.SystemColors.Highlight;
-            this.guna2GradientButton6.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.guna2GradientButton6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton6.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
-            this.guna2GradientButton6.HoverState.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.Location = new System.Drawing.Point(-1, 818);
-            this.guna2GradientButton6.Name = "guna2GradientButton6";
-            this.guna2GradientButton6.ShadowDecoration.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.Size = new System.Drawing.Size(467, 96);
-            this.guna2GradientButton6.TabIndex = 6;
-            this.guna2GradientButton6.Text = "Payment";
+            this.btnpayment.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnpayment.CheckedState.Parent = this.btnpayment;
+            this.btnpayment.CustomImages.Parent = this.btnpayment;
+            this.btnpayment.FillColor = System.Drawing.SystemColors.Highlight;
+            this.btnpayment.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.btnpayment.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpayment.ForeColor = System.Drawing.Color.White;
+            this.btnpayment.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
+            this.btnpayment.HoverState.Parent = this.btnpayment;
+            this.btnpayment.Location = new System.Drawing.Point(-1, 818);
+            this.btnpayment.Name = "btnpayment";
+            this.btnpayment.ShadowDecoration.Parent = this.btnpayment;
+            this.btnpayment.Size = new System.Drawing.Size(467, 96);
+            this.btnpayment.TabIndex = 6;
+            this.btnpayment.Text = "Payment";
             // 
             // btnstaff
             // 
@@ -151,23 +151,23 @@
             this.btnstaff.TabIndex = 6;
             this.btnstaff.Text = "Staff";
             // 
-            // guna2GradientButton4
+            // btndrug
             // 
-            this.guna2GradientButton4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.FillColor = System.Drawing.SystemColors.Highlight;
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton4.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
-            this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(-1, 614);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Size = new System.Drawing.Size(467, 96);
-            this.guna2GradientButton4.TabIndex = 6;
-            this.guna2GradientButton4.Text = "Pateint Drug";
+            this.btndrug.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btndrug.CheckedState.Parent = this.btndrug;
+            this.btndrug.CustomImages.Parent = this.btndrug;
+            this.btndrug.FillColor = System.Drawing.SystemColors.Highlight;
+            this.btndrug.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.btndrug.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndrug.ForeColor = System.Drawing.Color.White;
+            this.btndrug.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
+            this.btndrug.HoverState.Parent = this.btndrug;
+            this.btndrug.Location = new System.Drawing.Point(-1, 614);
+            this.btndrug.Name = "btndrug";
+            this.btndrug.ShadowDecoration.Parent = this.btndrug;
+            this.btndrug.Size = new System.Drawing.Size(467, 96);
+            this.btndrug.TabIndex = 6;
+            this.btndrug.Text = "Pateint Drug";
             // 
             // guna2GradientButton2
             // 
@@ -282,9 +282,9 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton6;
+        private Guna.UI2.WinForms.Guna2GradientButton btnpayment;
         private Guna.UI2.WinForms.Guna2GradientButton btnstaff;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
+        private Guna.UI2.WinForms.Guna2GradientButton btndrug;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
     }
 }
