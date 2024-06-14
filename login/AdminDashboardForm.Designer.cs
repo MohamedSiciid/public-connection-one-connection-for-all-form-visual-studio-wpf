@@ -126,7 +126,7 @@
             this.btnpayment.ForeColor = System.Drawing.Color.White;
             this.btnpayment.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.btnpayment.HoverState.Parent = this.btnpayment;
-            this.btnpayment.Location = new System.Drawing.Point(-1, 818);
+            this.btnpayment.Location = new System.Drawing.Point(-1, 827);
             this.btnpayment.Name = "btnpayment";
             this.btnpayment.ShadowDecoration.Parent = this.btnpayment;
             this.btnpayment.Size = new System.Drawing.Size(467, 96);
@@ -144,7 +144,7 @@
             this.btnstaff.ForeColor = System.Drawing.Color.White;
             this.btnstaff.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.btnstaff.HoverState.Parent = this.btnstaff;
-            this.btnstaff.Location = new System.Drawing.Point(-1, 716);
+            this.btnstaff.Location = new System.Drawing.Point(-1, 723);
             this.btnstaff.Name = "btnstaff";
             this.btnstaff.ShadowDecoration.Parent = this.btnstaff;
             this.btnstaff.Size = new System.Drawing.Size(467, 96);
@@ -162,7 +162,7 @@
             this.btndrug.ForeColor = System.Drawing.Color.White;
             this.btndrug.HoverState.BorderColor = System.Drawing.Color.SkyBlue;
             this.btndrug.HoverState.Parent = this.btndrug;
-            this.btndrug.Location = new System.Drawing.Point(-1, 614);
+            this.btndrug.Location = new System.Drawing.Point(-1, 616);
             this.btndrug.Name = "btndrug";
             this.btndrug.ShadowDecoration.Parent = this.btndrug;
             this.btndrug.Size = new System.Drawing.Size(467, 96);

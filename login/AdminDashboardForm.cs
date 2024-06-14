@@ -24,8 +24,6 @@ namespace login
             LoginPage lg = new LoginPage();
             lg.Show();
             this.Close();   
-           
-
         }
         private void AdjustLayout()
         {
